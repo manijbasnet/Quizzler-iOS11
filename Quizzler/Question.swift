@@ -13,9 +13,9 @@ class Question {
     let question: String
     let isCorrectAnswer: Bool
     
-    init(text: String, answer: Bool){
+    init(text: String, correctAnswer: Bool){
         question = text
-        isCorrectAnswer = answer
+        isCorrectAnswer = correctAnswer
     }
     
 }
